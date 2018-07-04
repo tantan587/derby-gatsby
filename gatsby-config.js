@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Derby Blog',
   },
   plugins: [
+    'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet', 
     'gatsby-plugin-netlify-cms',
     {

@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import HomeLogo  from '../../static/icons/home-logo.svg'
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'white',
       marginBottom: '1.45rem',
     }}
   >
@@ -16,14 +17,8 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
+        <Link to="/">
+          <img src={HomeLogo} width="300" />
         </Link>
       </h1>
     </div>

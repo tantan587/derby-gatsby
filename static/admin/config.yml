@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: /ArchangelGabriel/derby-gatsby
+  repo: ArchangelGabriel/derby-gatsby
 
 media_folder: static/assets
 public_folder: assets
